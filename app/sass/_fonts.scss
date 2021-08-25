@@ -1,0 +1,40 @@
+@import "bourbon";
+
+
+//@include font-face("centurygothic", "../fonts/centurygothic/GOTHIC", $file-formats: TTF);
+//@include font-face("centurygothic", "../fonts/centurygothicbold/GOTHICB", $file-formats: TTF);
+//@include font-face("Proxima nova", "../fonts/proxima-nova/ProximaNova-Regular/ProximaNova-Regular", $file-formats: eot woff ttf);
+//@include font-face("Proxima nova", "../fonts/proxima-nova/ProximaNova-Light/ProximaNova-Light", 100, $file-formats: eot woff ttf);
+//@include font-face("Proxima nova", "../fonts/proxima-nova/ProximaNova-Bold/ProximaNova-Bold", 600, $file-formats: eot woff ttf);
+//@include font-face("Proxima nova", "../fonts/proxima-nova/ProximaNova-Semibold/ProximaNova-Semibold", 700, $file-formats: eot woff ttf);
+//@include font-face("Proxima nova", "../fonts/proxima-nova/ProximaNova-ExtraBold/ProximaNova-Extrabld", 900, $file-formats: eot woff ttf);
+
+//Roboto
+// @include font-face("roboto", "../fonts/RobotoRegular/RobotoRegular", 400, $file-formats: eot woff ttf);
+// @include font-face("roboto", "../fonts/RobotoBold/RobotoBold", 700, $file-formats: eot woff ttf);
+// @include font-face("roboto", "../fonts/RobotoLight/Roboto-Light", 300, $file-formats: ttf);
+
+//HelveticaNeue
+// @include font-face("helveticaneue", "../fonts/HelveticaNeue/Thin/HelveticaNeueCyr-Thin", 200, $file-formats: eot woff woff2 ttf);
+// @include font-face("helveticaneue", "../fonts/HelveticaNeue/Light/HelveticaNeueCyr-Light", 300, $file-formats: eot woff woff2 ttf);
+// @include font-face("helveticaneue", "../fonts/HelveticaNeue/Normal/HelveticaNeueCyr-Roman", 400, $file-formats: eot woff woff2 ttf);
+// @include font-face("helveticaneue", "../fonts/HelveticaNeue/CondensedBold/HelveticaNeueBoldCondensed", 700, $file-formats: eot woff woff2 ttf);
+// @include font-face("helveticaneue", "../fonts/HelveticaNeue/CondensedBlack/HelveticaNeueBlackCondensed", 900, $file-formats: eot woff woff2 ttf);
+
+//OpenSans
+// @include font-face("opensans", "../fonts/OpenSans/regular", 400, $file-formats: eot woff woff2 ttf svg);
+// @include font-face("opensans", "../fonts/OpenSans/bold", 700, $file-formats: eot woff woff2 ttf svg);
+// @include font-face("opensans", "../fonts/OpenSans/extrabold", 900, $file-formats: ttf);
+
+//Ubuntu
+@include font-face("Ubuntu", "../fonts/Ubuntu/regular", 400, $file-formats: woff2);
+@include font-face("Ubuntu", "../fonts/Ubuntu/bold", 700, $file-formats: woff2);
+@include font-face("Ubuntu", "../fonts/Ubuntu/light", 300, $file-formats: woff2);
+
+//Raleway
+@include font-face("raleway", "../fonts/Raleway/regular", 400, $file-formats: woff2);
+@include font-face("raleway", "../fonts/Raleway/bold", 700, $file-formats: woff2);
+
+//Font Awesome
+//@import "../fonts/font-awesome/scss/font-awesome";
+//@include font-face("FontAwesome", "../fonts/font-awesome/fonts/fontawesome-webfont",  $file-formats: svg eot woff woff2 ttf);

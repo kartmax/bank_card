@@ -1,0 +1,69 @@
+@import "bourbon";
+@import "vars";
+
+html {
+	font-size: 16px;
+
+	@media only screen and (min-width : 768px){
+		font-size: 18px;
+	}
+}
+
+body {
+	background-color: #1c1c1c;
+	position: relative;
+	min-width: $min-width;
+	font-family: $default-font;
+	font-weight: 300;
+	color: $text-color;
+	line-height: 1.65;
+	overflow-x: hidden;
+	perspective: 4000px;
+
+	// Fix text zoom on Mobile Devices
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+.max-width {
+	max-width: $max-width;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	@media only screen and (min-width : 768px){
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+.center {
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	@media only screen and (min-width : 768px){
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+address, blockquote, center, section, main, header, footer, div, fieldset, form, input, textarea,
+h1, h2, h3, h4, h5, h6, hr, menu, ol, ul, li, p, span, a, pre, table {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
